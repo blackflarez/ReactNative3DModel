@@ -8,6 +8,8 @@ This app was created as the foundation for a future project. Originally, this wa
 
 ## Getting Started
 
+### Starting the app
+
 1. Open a terminal window at `ExpoThreeModel`.
 2. Start the server.
 ```
@@ -15,5 +17,9 @@ npm start
 ```
 3. Metro Bunder window should open in your web browser. Scan the QR code to run using Expo Go on iOS/Android devices or Run in webbrowser.
 
+### Notes for making changes
+
+* If you want to import your own models, make sure to export your gltf/glb models without textures, then reference the texture file seperately. Also watch out for scaling. My example coke can is quite small, so adjust the FOV of the Perspective Camera.
+
 ## Author
-* Ruben Gueorguiev - [GitHub](https://github.com/blackflarez) - [LinkedIn](https://www.linkedin.com/in/ruben-gueorguiev-1bb0151b8/)
+Ruben Gueorguiev - [GitHub](https://github.com/blackflarez) - [LinkedIn](https://www.linkedin.com/in/ruben-gueorguiev-1bb0151b8/)
